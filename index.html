@@ -18,28 +18,74 @@
             color: rgb(12, 247, 24);
             text-align: center;
         }
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
 
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
     </style>
 
 
-    <title>Document</title>
+    <title>EFEDMRP WEB SİTE</title>
 </head>
 
 <body>
+<table border="1" bgcolor="white">
+<img src="logo.png" width="107" height="140">
 
-        <h1>Merhaba !</h1>
-        <h1>Heading 1</h1>
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
-        <h4>Heading 4</h4>
-        <h5>Heading 5</h5>
-        <h6>Heading 6</h6>
-
-    <h2>This is a heading</h2>
-    <p>This is a paragraph.</p>
+<img src="ata.png" width="200" height="263">
 
 
-
-</body>
+ 
+<div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="https://algodijital.com/gezegen/1">algo dijital</a>
+          <a href="https://golang.org/doc/install?download=go1.9.2.windows-amd64.msi">golong</a>
+          <a href="https://www.has.com.tr/hasotomotiv/mercedes-benz-a-serisi-kampanya">yardımcımız</a>
+        </div>
+      </div>
+</table>
+    </body>
 
 </html>
